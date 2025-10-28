@@ -8,6 +8,7 @@ export default function Home() {
       <p>Projekt</p>
       <DummyComponent />
       <Image />
+      <p>success</p>
     </div>
   ); //Brug <Image /> komponenten i stedet for <img> elementet da
      //det har nogle fordele ift. performance i Next.js
