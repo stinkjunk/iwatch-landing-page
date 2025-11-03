@@ -29,12 +29,12 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body
         // className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-        className={`${poppins.variable} antialiased bg-gradient-to-b from-[#C8DCE6] to-[#B6CCDA] 
+        className={`${poppins.variable} antialiased bg-gradient-to-b from-[#B6CCDA] to-[#C8DCE6] 
         h-screen w-screen
-        grid grid-cols-[3fr_1fr_0.25fr]
-        px-13`}
+        px-18 flex flex-col`}
       >
         <HeaderComponent />
+
         {children /* Ligesom slot i Astro */}
       </body>
     </html>
