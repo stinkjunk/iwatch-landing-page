@@ -13,7 +13,7 @@ export default function Home() {
   return (
     //className for HTML klasse da class er reserveret i JS
     <>
-      <main className="grid grid-cols-[3fr_2fr_0.25fr] grid-rows-[2fr_0.5fr_0.75fr] flex-grow mb-10">
+      <main className="grid grid-cols-[3fr_2fr_0.2fr] grid-rows-[2fr_0.5fr_0.75fr] flex-grow mb-10">
         <h1 className="text-7xl/20 my-auto pr-40 font-normal">
           <span className="font-bold">The Perfect Moment</span> Between Past And
           Future.

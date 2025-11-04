@@ -5,6 +5,10 @@
   --foreground: #171717;
   --font-sans: var(--font-poppins);
   color: white;
+
+  --navyCol: #434558;
+  --mintCol: #00ffd5; 
+  --oceanCol: #b7f2ff;
 }
 
 /*
@@ -59,11 +63,11 @@ body {
 }
 
 .browseItem.navy::before {
-  background-color: #43455899;
+  background-color: var(--navyCol)
 }
 .browseItem.mint::before {
-  background-color: #00ffd599;
+  background-color: var(--mintCol)
 }
 .browseItem.ocean::before {
-  background-color: #b7f2ff99;
+  background-color: var(--oceanCol)
 }
