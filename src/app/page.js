@@ -1,7 +1,15 @@
+// "use client";
+// import { useState } from "react";
+
+
 import DummyComponent from "@/components/DummyComponent";
+import ProductShowcaseComponent from "@/components/ProductShowcase";
 import Image from "next/image";
 
 export default function Home() {
+
+  // const [productColor, setProductColor] = useState("navy");
+
   return (
     //className for HTML klasse da class er reserveret i JS
     <>
@@ -18,6 +26,7 @@ export default function Home() {
             Bye Now
           </button>
         </div>
+        <ProductShowcaseComponent />
       </main>
     </>
   ); //Brug <Image /> komponenten i stedet for <img> elementet da
