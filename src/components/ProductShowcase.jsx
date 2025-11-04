@@ -113,7 +113,7 @@ const ProductShowcaseComponent = () => {
             onClick={() => updateNumber()}
             className="cursor-pointer"
           ></HiOutlineArrowNarrowLeft>
-          <p className="flex items-center justify-center mx-2">{number + 1}</p>
+          <p className="flex items-center justify-center mx-2 aspect-square">{number + 1}</p>
           <HiOutlineArrowNarrowRight
             color="white"
             size={browseArrowSize}
